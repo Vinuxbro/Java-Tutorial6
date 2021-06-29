@@ -23,21 +23,27 @@ public class Account {
         System.out.println("Name : " + holderName);
         System.out.println("Account Type : " + accountType);
         System.out.println("Account Number : " + accountNumber);
+        System.out.println("Current Balance : " + currentBalence);
 
     }
     void setAccountType(String accountType){    //q2
+
         this.accountType=accountType;
     }
     void setHolderName(String holderName){    //q2
+
         this.holderName=holderName;
     }
 
     void setAccountNumber(int accountNumber){
+
         this.accountNumber=accountNumber;
     }
 
     void setCurrentBalence(double currentBalence){
+
         this.currentBalence=currentBalence;
+
     }
 
     public double checkBalence() {   //q1,q2
